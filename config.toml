@@ -33,13 +33,14 @@ paginate = 5
 #
 [params]
   # Site author
-  author = "Your Name"
+  author = "ponkore"
 
   # Description/subtitle for homepage (can be Markdown)
   description = "A simple Hugo theme based on the Bootstrap v4 blog example."
 
   # Format dates with Go's time formatting
-  date_format = "Mon Jan 02, 2006"
+  # date_format = "Mon Jan 02, 2006"
+  date_format = "2006/01/02"
 
   # verification string for Google Webmaster Tools
   #google_verify_meta = "BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
@@ -87,7 +88,7 @@ paginate = 5
     # Optional, used for attribution in Twitter cards (ideally not a person
     # for example: nytimes, flickr, NatGeo, etc).
     # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "username"
+    twitter = "ponkore"
 
 # Default content language for Hugo 0.17's multilingual support (default is "en")
 # See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
