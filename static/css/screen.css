@@ -24,6 +24,11 @@
 }
 
 /* line 32, ../sass/screen.scss */
+.blog-header {
+  margin-bottom: 0rem;
+}
+
+/* line 36, ../sass/screen.scss */
 h1, h2 {
   color: #fff;
   background-color: #3bc073;
@@ -33,13 +38,13 @@ h1, h2 {
   margin-top: 0px;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 h3, h4, h5, h6 {
   color: #3bc073;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 body {
   color: #333;
   background-color: #f2f2f2;
@@ -47,67 +52,67 @@ body {
   font-size: 16px;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 i {
   font-size: 130%;
   margin-right: 5px;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .container {
   /* max-width: 1170px; */
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .right {
   float: right;
   text-align: right;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .navbar {
   z-index: 1;
   border-radius: 0;
   box-shadow: 0 0 0 0, 0 2px 4px rgba(34, 34, 34, 0.3);
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .navbar-default {
   background-color: #3bc073;
   border: none;
 }
-/* line 77, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .navbar-default .navbar-brand {
   color: #fff;
 }
-/* line 79, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .navbar-default .navbar-brand:hover {
   color: #fff;
 }
-/* line 85, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .navbar-default .navbar-nav li a {
   color: #fff;
 }
-/* line 87, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .navbar-default .navbar-nav li a:hover {
   color: #fff;
   background-color: #32a362;
 }
-/* line 92, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .navbar-default .navbar-nav .active a {
   color: #fff;
   background-color: #32a362;
 }
-/* line 99, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-/* line 102, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .navbar-default .navbar-toggle:hover {
   background-color: #32a362;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #sidebar {
   background-color: #fff;
   border-radius: 3px;
@@ -120,7 +125,7 @@ i {
   padding-bottom: 10px;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #content {
   background-color: #fff;
   border-radius: 3px;
@@ -128,12 +133,12 @@ i {
   margin-top: 90px;
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 .toc {
   margin-top: 0px;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 footer {
   font-size: 14px;
   text-align: center;
@@ -141,128 +146,128 @@ footer {
   padding-bottom: 30px;
 }
 
-/* line 143, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 #post-tags {
   /* margin-top: 30px; */
   display: inline-block;
   float: right;
 }
-/* line 147, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 #post-tags a {
   margin-top: -4px;
 }
 
-/* line 152, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 #prev-next {
   padding: 15px 15px;
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .btn-next-prev {
   color: #fff;
   background-color: #3bc073;
 }
-/* line 159, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .btn-next-prev:hover {
   color: #fff;
   background-color: #32a362;
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 .read-more {
   font-size: 14px;
 }
 
-/* line 169, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .post-header {
   margin-bottom: 5px;
 }
-/* line 173, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .post-header .post-title {
   font-size: 130%;
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 #post-meta {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 183, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 #page-header {
   margin-bottom: 20px;
 }
-/* line 185, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 #page-header h2 {
   font-size: 32px;
 }
 
-/* line 190, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 pre {
   overflow-x: auto;
 }
-/* line 192, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 pre code {
   overflow-wrap: normal;
   white-space: pre;
 }
 
-/* line 198, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 code {
   color: #428bca;
 }
 
-/* line 202, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 pre, code, .hljs {
   background-color: #f7f9fd;
 }
 
 @media (min-width: 768px) {
-  /* line 207, ../sass/screen.scss */
+  /* line 211, ../sass/screen.scss */
   .navbar {
     min-height: 70px;
   }
 
-  /* line 210, ../sass/screen.scss */
+  /* line 214, ../sass/screen.scss */
   .navbar-nav > li > a {
     padding: 30px 20px;
   }
 
-  /* line 213, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   .navbar-default .navbar-brand {
     font-size: 36px;
     padding: 25px 15px;
   }
 
-  /* line 217, ../sass/screen.scss */
+  /* line 221, ../sass/screen.scss */
   #content {
     margin-top: 90px;
     padding: 20px 40px;
   }
 }
 @media (max-width: 767px) {
-  /* line 224, ../sass/screen.scss */
+  /* line 228, ../sass/screen.scss */
   body {
     font-size: 14px;
   }
 
-  /* line 227, ../sass/screen.scss */
+  /* line 231, ../sass/screen.scss */
   .navbar-default .navbar-brand {
     font-size: 30px;
   }
 
-  /* line 230, ../sass/screen.scss */
+  /* line 234, ../sass/screen.scss */
   #content {
     padding: 15px;
   }
 
-  /* line 233, ../sass/screen.scss */
+  /* line 237, ../sass/screen.scss */
   #post-meta .right {
     float: left;
     text-align: left;
   }
 }
-/* line 240, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .social-area {
   width: 100%;
   min-height: 190px;
@@ -271,7 +276,7 @@ pre, code, .hljs {
 }
 
 @media screen and (min-width: 480px) {
-  /* line 248, ../sass/screen.scss */
+  /* line 252, ../sass/screen.scss */
   .social-area {
     min-height: 119px;
   }
