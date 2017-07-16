@@ -1,4 +1,35 @@
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+<link rel="stylesheet" href="/css/screen.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/clojure.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+<!--
+  $("#cpyear").text(new Date().getFullYear());
+
+  $("#menu").children().each(
+    function() {
+        var location = window.location.pathname;
+        var href = $(this).children().first().attr("href");
+        if (location.indexOf(href) > -1)
+            $(this).addClass("selected");
+        else
+            $(this).removeClass("selected");
+    });
+  -->
+<!--
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Handler when the DOM is fully loaded
+    new Headroom(document.querySelector(".blog-header"), { // ".navbar-fixed-top"
+      "offset": 205,
+      "tolerance": 5,
+      "classes": {
+          "initial": "headroom",
+          "pinned": "headroom--pinned",
+          "unpinned": "headroom--unpinned"
+      }
+    }).init();
+  });
+</script>
+ -->
