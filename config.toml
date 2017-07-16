@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://ponkore.github.io/"
+languageCode = "ja-jp"
+title = "(scratch pad memos)"
 theme = "hugo-theme-bootstrap4-blog"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
@@ -36,7 +36,7 @@ paginate = 5
   author = "ponkore"
 
   # Description/subtitle for homepage (can be Markdown)
-  description = "A simple Hugo theme based on the Bootstrap v4 blog example."
+  description = "主に自分用メモの小ネタを書いていきます。"
 
   # Format dates with Go's time formatting
   # date_format = "Mon Jan 02, 2006"

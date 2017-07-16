@@ -1,14 +1,16 @@
 ---
-title: "My First Post"
-date: 2017-07-16T00:27:58+09:00
+title: "テストポスト"
+date: 2017-07-16
 draft: false
 ---
+
+hello, world.
+
+<!--more-->
 
 ### h3
 
 #### h4
-
-hello, world.
 
 ```clojure
 (defn hello-world
