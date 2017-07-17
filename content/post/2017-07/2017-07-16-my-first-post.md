@@ -1,8 +1,10 @@
----
-title: "テストポスト"
-date: 2017-07-16
-draft: false
----
++++
+title = "テストポスト"
+date = 2017-07-16
+url = "201707/my-first-post"
+tags = ["tag1", "tag2"]
+draft = false
++++
 
 hello, world.
 
