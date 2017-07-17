@@ -30,16 +30,18 @@
   </head>
 
   <body>
-    <header class="blog-header">
+    <div class="nav navbar navbar-fixed-top">
       <div class="container">
-        <h1 class="blog-title"><a href="{{ .Site.BaseURL }}" rel="home">{{ .Site.Title | safeHTML }}</a></h1>
-        {{ if .Site.Params.description }}<p class="lead blog-description">{{ .Site.Params.description | markdownify }}</p>{{ end }}
-      </div>
-    </header>
+        <div class="blog-title">
+          <div>
+            <a href="{{ .Site.BaseURL }}" rel="home">{{ .Site.Title | safeHTML }}</a>
+          </div>
+          <div>
+            {{ if .Site.Params.description }}<p class="lead blog-description">{{ .Site.Params.description | markdownify }}</p>{{ end }}
 
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="nav blog-nav">
+          </div>
+        </div>
+        <nav class="nav blog-nav nav-right right">
           <a class="nav-link {{ if .IsHome }}active{{ end }}" href="{{ .Site.BaseURL | absLangURL }}">{{ i18n "home" }}</a>
           {{- $currentURL := .URL | absLangURL -}}
           {{ if .Site.Params.custom_navbar }}

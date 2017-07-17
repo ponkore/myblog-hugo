@@ -25,12 +25,22 @@ $content-margin-top: 90px;
   top: 0;
 }
 
-.blog-masthead {
-  margin-bottom: 0rem;
+.blog-title {
+  color: $text-color;
+  background-color: $main-color;
+  font-size: 2.0rem;
+  padding-left: 0.5rem;
 }
 
-.blog-header {
-  margin-bottom: 0rem;
+.blog-post-title {
+  font-size: 1.6rem;
+}
+
+.blog-description {
+  color: $text-color;
+  background-color: $main-color;
+  font-size: 0.6rem;
+  padding-left: 1.5rem;
 }
 
 h1, h2 {
@@ -51,7 +61,7 @@ body {
     color: #333;
     background-color: $base-color;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 80%;
 }
 
 i {
@@ -69,6 +79,7 @@ i {
 }
 
 .navbar {
+    padding: 0px;
     z-index: 1;
     border-radius: 0;
     box-shadow: 0 0 0 0,0 $shadow $shadow2 rgba(34,34,34,0.3);
