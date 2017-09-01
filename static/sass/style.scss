@@ -1,3 +1,12 @@
+$background-color: #ffffff;
+$body-background-color: #f7f7f7;
+$main-color: #e64946;
+$key-background-color: #2a2a2a;
+$foreground-color: #000;
+$other-background-color: #f5f5f5;
+$border-main-color: #ebebeb;
+$border-accent-color: #e5e5e5;
+
 /*** CSS Reset based on http://meyerweb.com/eric/tools/css/reset/ v2.0 ***/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
@@ -68,7 +77,7 @@ body {
     font-size: 14px;
     font-size: 0.875rem;
     line-height: 1.6;
-    background: #f7f7f7;
+    background: $body-background-color;
     word-wrap: break-word;
 }
 
@@ -88,7 +97,7 @@ body {
 
 .wrapper {
     padding: 25px;
-    background: #fff;
+    background: $background-color;
 }
 
 .content {
@@ -133,13 +142,13 @@ body {
     font-weight: 700;
     padding: 5px 10px;
     white-space: nowrap;
-    color: #fff;
-    background: #2a2a2a;
+    color: $background-color;
+    background: $key-background-color;
 }
 
 .btn:hover {
-    color: #fff;
-    background: #e64946;
+    color: $background-color;
+    background: $main-color;
 }
 
 /*** Columns ***/
@@ -245,7 +254,7 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    color: #000;
+    color: $foreground-color;
     line-height: 1.3;
     font-weight: 700;
 }
@@ -257,11 +266,11 @@ small {
 
 pre {
     font-family: "Consolas", Courier New, Courier, monospace;
-    color: #000;
+    color: $foreground-color;
     margin-bottom: 20px;
     margin-bottom: 1.25rem;
-    background: #f5f5f5;
-    border: 1px solid #ebebeb;
+    background: $other-background-color;
+    border: 1px solid $border-main-color;
     padding: 20px;
     padding: 1.25rem;
     white-space: pre-wrap;
@@ -273,7 +282,7 @@ pre {
 kbd {
     padding: 0 6px;
     padding: 0 0.375rem;
-    background: #f5f5f5;
+    background: $other-background-color;
     border: 1px solid #aaa;
     border-radius: 0.1875em;
     -moz-border-radius: 0.1875em;
@@ -281,7 +290,7 @@ kbd {
     -webkit-border-radius: 0.1875em;
     -webkit-box-shadow: 0 0.0625em 0 rgba(0, 0, 0, 0.2), 0 0 0 0.125em white inset;
     box-shadow: 0 0.0625em 0 rgba(0, 0, 0, 0.2), 0 0 0 0.125em white inset;
-    text-shadow: 0 0.0625em 0 #fff;
+    text-shadow: 0 0.0625em 0 $background-color;
 }
 
 blockquote {
@@ -292,7 +301,7 @@ blockquote {
     font-style: italic;
     color: #666;
     padding: 5px 0 5px 15px;
-    border-left: 5px solid #e64946;
+    border-left: 5px solid $main-color;
 }
 
 sup {
@@ -328,12 +337,12 @@ address {
 }
 
 a {
-    color: #000;
+    color: $foreground-color;
     text-decoration: none;
 }
 
 a:hover {
-    color: #e64946;
+    color: $main-color;
 }
 
 /*** Lists ***/
@@ -381,7 +390,7 @@ select {
 
 /*** Header ***/
 .header {
-    background: #fff;
+    background: $background-color;
 }
 
 .logo {
@@ -405,22 +414,22 @@ select {
     font-size: 14px;
     font-size: 0.875rem;
     line-height: 1;
-    color: #e64946;
+    color: $main-color;
     padding-top: 10px;
     margin-top: 10px;
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid $border-accent-color;
 }
 
 .divider {
     border: 0;
     margin: 0;
     height: 5px;
-    background: #e64946;
+    background: $main-color;
 }
 
 /*** Navigation — Responsive-nav.js ***/
 .menu {
-    background: #2a2a2a;
+    background: $key-background-color;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -428,10 +437,10 @@ select {
 }
 
 .menu__toggle {
-    background: #2a2a2a;
+    background: $key-background-color;
     text-transform: uppercase;
     padding: 10px 15px;
-    color: #ffffff;
+    color: $background-color;
     text-align: right;
     font-weight: 700;
     display: block;
@@ -455,13 +464,13 @@ select {
 .menu__link {
     padding: 10px 15px;
     display: block;
-    color: #fff;
+    color: $background-color;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     font-weight: 700;
 }
 
 .menu__link:hover {
-    color: #ffffff;
+    color: $background-color;
 }
 
 .js .menu--collapse {
@@ -477,7 +486,7 @@ select {
 }
 
 .opened.menu__list {
-    border-top: 1px solid #e64946;
+    border-top: 1px solid $main-color;
 }
 
 .menu__item {
@@ -487,11 +496,11 @@ select {
 }
 
 .menu__item:hover {
-    background: #e64946;
+    background: $main-color;
 }
 
 .menu__item--active {
-    background: #e64946;
+    background: $main-color;
 }
 
 .menu__item:first-child {
@@ -512,7 +521,7 @@ select {
     }
 
     .menu {
-        border-bottom: 5px solid #e64946;
+        border-bottom: 5px solid $main-color;
         min-height: 42px;
     }
 
@@ -549,7 +558,7 @@ select {
 }
 
 .meta a:hover {
-    color: #e64946;
+    color: $main-color;
 }
 
 .meta span {
@@ -573,8 +582,8 @@ select {
     margin-top: 10px;
     margin-top: 0.625rem;
     padding: 5px 10px;
-    border-top: 1px dotted #ebebeb;
-    border-bottom: 1px dotted #ebebeb;
+    border-top: 1px dotted $border-main-color;
+    border-bottom: 1px dotted $border-main-color;
 }
 
 .post__thumbnail {
@@ -600,18 +609,18 @@ select {
 
 .post__content a, .list__excerpt a, .warning a {
     font-weight: 700;
-    color: #e64946;
+    color: $main-color;
 }
 
 .post__content a:hover, .list__excerpt a:hover, .warning a:hover {
-    color: #e64946;
+    color: $main-color;
     text-decoration: underline;
 }
 
 .tags {
     font-size: 12px;
     font-size: 0.75rem;
-    color: #fff;
+    color: $background-color;
     line-height: 1;
     margin-bottom: 20px;
     margin-bottom: 1.25rem;
@@ -622,17 +631,17 @@ select {
     font-weight: 700;
     margin: 0 6px 6px 0;
     margin: 0 0.375rem 0.375rem 0;
-    background: #2a2a2a;
+    background: $key-background-color;
     text-transform: uppercase;
 }
 
 .tags__item:hover {
-    background: #e64946;
+    background: $main-color;
 }
 
 .tags__link, .tags__link:hover {
     display: block;
-    color: #fff;
+    color: $background-color;
     padding: 10px 15px;
 }
 
@@ -640,11 +649,11 @@ select {
     float: left;
     padding: 8px;
     margin-right: 6px;
-    background: #e64946;
+    background: $main-color;
 }
 
 .icon-tag {
-    fill: #fff;
+    fill: $background-color;
 }
 
 /*** Author Box ***/
@@ -652,8 +661,8 @@ select {
     line-height: 1.5;
     padding: 25px 0;
     margin-bottom: 25px;
-    border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid $border-main-color;
+    border-bottom: 1px solid $border-main-color;
 }
 
 .authorbox .screen-reader-text {
@@ -666,7 +675,7 @@ select {
     float: left;
     padding: 3px;
     margin-right: 25px;
-    border: 1px solid #ebebeb;
+    border: 1px solid $border-main-color;
 }
 
 .authorbox__header {
@@ -685,7 +694,7 @@ select {
     padding-bottom: 1.25rem;
     margin-bottom: 20px;
     margin-bottom: 1.25rem;
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid $border-main-color;
 }
 
 .list__header {
@@ -724,14 +733,14 @@ select {
 .pagination__item {
     display: inline-block;
     font-weight: 700;
-    color: #000;
+    color: $foreground-color;
     padding: 10px 15px;
-    background: #f5f5f5;
+    background: $other-background-color;
 }
 
 .pagination__item:hover, .pagination__item--current {
-    color: #fff;
-    background: #e64946;
+    color: $background-color;
+    background: $main-color;
 }
 
 /*** Post Navigation ***/
@@ -739,7 +748,7 @@ select {
     padding-top: 25px;
     padding-bottom: 25px;
     margin-bottom: 25px;
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid $border-main-color;
 }
 
 .post-nav__caption {
@@ -766,7 +775,7 @@ select {
 .footer {
     padding: 10px 25px;
     border-top: 3px solid #999;
-    background: #2a2a2a;
+    background: $key-background-color;
 }
 
 .footer__copyright {
@@ -776,7 +785,7 @@ select {
 }
 
 .footer__copyright a {
-    color: #ffffff;
+    color: $background-color;
 }
 
 /*** Images / Video ***/
@@ -829,14 +838,14 @@ table {
     width: 100%;
     margin-bottom: 20px;
     margin-bottom: 1.25rem;
-    border-left: 1px solid #ebebeb;
-    border-top: 1px solid #ebebeb;
+    border-left: 1px solid $border-main-color;
+    border-top: 1px solid $border-main-color;
 }
 
 td, th {
     padding: 5px 10px;
-    border-right: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+    border-right: 1px solid $border-main-color;
+    border-bottom: 1px solid $border-main-color;
 }
 
 th {
@@ -849,7 +858,7 @@ input {
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     vertical-align: middle;
-    background: #f5f5f5;
+    background: $other-background-color;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
@@ -861,16 +870,16 @@ input[type=text], input[type=email], input[type=tel], input[type=url] {
 
 input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover,
 input[type=url]:hover, textarea:hover {
-    border: 1px solid #e64946;
+    border: 1px solid $main-color;
 }
 
 input[type=submit] {
     display: inline-block;
     min-width: 150px;
     font-weight: 700;
-    color: #fff;
+    color: $background-color;
     padding: 10px 15px;
-    background: #e64946;
+    background: $main-color;
     cursor: pointer;
     text-transform: uppercase;
     -webkit-transition: all 0.1s linear;
@@ -881,7 +890,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background: #2a2a2a;
+    background: $key-background-color;
 }
 
 textarea {
@@ -889,7 +898,7 @@ textarea {
     line-height: 1.5;
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background: #f5f5f5;
+    background: $other-background-color;
 }
 
 /*** Searchform ***/
@@ -913,8 +922,8 @@ textarea {
     position: relative;
     padding: 10px;
     margin: 0;
-    border: 1px solid #ebebeb;
-    background: #fff;
+    border: 1px solid $border-main-color;
+    background: $background-color;
     cursor: pointer;
     -webkit-appearance: none;
     -webkit-border-radius: 0;
@@ -929,7 +938,7 @@ textarea {
     display: block;
     margin: 0 auto;
     padding: 5%;
-    background: #f5f5f5;
+    background: $other-background-color;
 }
 
 .widget-search__form .widget-search__field {
@@ -956,7 +965,7 @@ textarea {
     margin-bottom: 20px;
     margin-bottom: 1.25rem;
     text-transform: uppercase;
-    border-bottom: 3px solid #e64946;
+    border-bottom: 3px solid $main-color;
 }
 
 .widget-social__link {
@@ -971,7 +980,7 @@ textarea {
 
 /*** Default WordPress Widgets ***/
 .widget-categories li {
-    border-bottom: 1px dotted #ebebeb;
+    border-bottom: 1px dotted $border-main-color;
 }
 
 .widget-categories li a {
@@ -987,24 +996,24 @@ textarea {
     display: inline-block;
     font-size: 12px;
     font-weight: 700;
-    color: #fff;
+    color: $background-color;
     padding: 5px 10px;
     margin: 0 4px 8px 0;
     white-space: nowrap;
     text-transform: uppercase;
-    background: #2a2a2a;
+    background: $key-background-color;
 }
 
 .widget__link--taglist:hover, .widget .widget__link--taglist:hover {
-    color: #fff;
-    background: #e64946;
+    color: $background-color;
+    background: $main-color;
 }
 
 /*** Recent Posts Widget ***/
 .widget-recent li {
     display: block;
     padding: 5px 0;
-    border-bottom: 1px dotted #e5e5e5;
+    border-bottom: 1px dotted $border-accent-color;
 }
 
 .widget-recent li:first-child {
