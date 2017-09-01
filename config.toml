@@ -9,19 +9,15 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
   name = "ponkore"
-  bio = "xxx"
+  bio = "Lisp, Clojure, Java, C#, Japan"
   avatar = ""
-
-# [permalinks]
-#   post = "/:year/:month/:title/"
-#   page = "/:slug/"
 
 #
 # Theme variables
 #
 [Params]
-  subtitle = "subtitle"
-  description = "主に自分用メモの小ネタを書いていきます。"
+  subtitle = "主に自分用メモの小ネタを書いていきます。"
+  description = ""
   opengraph = true
   readmore = false
   leftsidebar = false
@@ -29,17 +25,15 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   postnavigation = true
   postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
   #postSections = ["blog", "news"] # alternative that shows more than one section's pages
-  #dateformat = "2006-01-02" # change the format of dates
-  # date_format = "Mon Jan 02, 2006"
-  date_format = "2006/01/02"
+  dateFormat = "2006/01/02" # change the format of dates
 
 [Params.widgets]
-    search = true # Enable "Search" widget
+    search = false # Enable "Search" widget
     recent_articles = true # Enable "Recent articles" widget
     recent_articles_num = 10 # Set the number of articles in the "Recent articles" widget
     categories = true # Enable "Categories" widget
     tags = true # Enable "Tags" widget
-    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+    tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
 
     # Enable "Social" widget, if any of "social_*" set a value
     social_facebook = "masa0.kato"
