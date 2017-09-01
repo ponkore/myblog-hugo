@@ -1010,22 +1010,39 @@ textarea {
 }
 
 /*** Recent Posts Widget ***/
-.widget-recent li {
+// .widget-recent li {
+//     display: block;
+//     padding: 5px 0;
+//     border-bottom: 1px dotted $border-accent-color;
+// }
+
+// .widget-recent li:first-child {
+//     padding-top: 0;
+// }
+
+// .widget-recent .post-date {
+//     display: block;
+//     font-size: 11px;
+//     font-size: 0.6875rem;
+//     color: #979797;
+//     margin-bottom: 5px;
+// }
+.widget-recent {
+  li {
     display: block;
     padding: 5px 0;
     border-bottom: 1px dotted $border-accent-color;
-}
-
-.widget-recent li:first-child {
-    padding-top: 0;
-}
-
-.widget-recent .post-date {
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+  .post-date {
     display: block;
     font-size: 11px;
     font-size: 0.6875rem;
     color: #979797;
     margin-bottom: 5px;
+  }
 }
 
 /*** Media Queries ***/
