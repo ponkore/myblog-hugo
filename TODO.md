@@ -1,16 +1,8 @@
-優先度高
------------
+* tODO
 - [ ] About 内容記載
 - [ ] Copyright 記載
-- [ ] 文字サイズ調整（Win環境とバランスをとる）
-- [ ] ヘッダ右上のレイアウト、ヘッダ/navまわりの構造を見直す
-
-優先度中
------------
-- [ ] Archives ページ作成（とりあえず taxonomy にする？）
-- [ ] レスポンシブ対応
-- [ ] .scss ファイルの整理（テーマにあるものをベースにいじる）
-- [ ] misaki 分をどうするか？(HTML to markdown を試してみる)
-
-優先度低
-----------
+- [ ] browser title (site title + page title)
+- [ ] Archives ページ作成
+- [ ] .scss ファイルの整理
+- [ ] archtype/_default.md
+- [ ] directory structure (image path)
