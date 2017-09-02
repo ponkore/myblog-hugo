@@ -343,6 +343,30 @@ a {
     }
 }
 
+/*** Table Of Contents ***/
+#TableOfContents {
+    background: #f9f9f9;
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 1em;
+    width: auto;
+    display: table;
+    font-size: 95%;
+    &:before {
+      text-align: center;
+      content: "目次";
+    }
+    ul {
+      margin: 0 0 20px 20px;
+      ul {
+        margin: 0 0 0 20px;
+      }
+    }
+    li {
+        margin-bottom: 5px;
+    }
+}
+
 /*** Lists ***/
 .post__content {
     ul {
