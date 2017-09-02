@@ -1,12 +1,12 @@
 +++
 title = "セカンドポスト"
 description = "セカンドポスト"
-date = 2017-07-16
+date = 2017-07-15
 categories = ["Programming"]
 tags = ["tag1", "tag3"]
 archives = ["2017", "2017-07"]
-url = "2017-07/16/second-post"
-thumbnail = "img/2017-07/16/a.png"
+url = "2017-07/15/second-post"
+thumbnail = "img/2017-07/15/a.png"
 draft = false
 +++
 
