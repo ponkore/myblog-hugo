@@ -970,6 +970,15 @@ textarea {
     margin: 0 5px 0 0;
 }
 
+.widget-social__item {
+    font-size: 0;
+}
+
+.widget__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /*** Social Media Icons from https://codepen.io/vpdemo/pen/gbvprR ***/
 #social {
   margin: 20px 10px;
@@ -1091,6 +1100,38 @@ textarea {
         color: #e88845;
         background: #fff;
         // border-color: #e88845;
+    }
+}
+
+/* github button class*/
+.githubBtn {
+    color: #000;
+    background: #fff;
+    &:before {
+        font-family: "FontAwesome";
+        font-size: 3.6rem;
+        content: "\f09b"; /* add github icon */
+    }
+    &:hover {
+        color: #fff;
+        background: #000;
+        // border-color: #3a5876;
+    }
+}
+
+/* email button class*/
+.emailBtn {
+    color: #fff;
+    background: #3a5876;
+    &:before {
+        font-family: "FontAwesome";
+        font-size: 1.8rem;
+        content: "\f003"; /* add envelop-o icon */
+    }
+    &:hover {
+        color: #3a5876;
+        background: #fff;
+        // border-color: #3a5876;
     }
 }
 /*** ***/

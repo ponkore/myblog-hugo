@@ -38,13 +38,15 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
     categories = true # Enable "Categories" widget
     tags = true # Enable "Tags" widget
     tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
+    archives = true # Enable "Archives" widget
     archives_counter = true # Enable counter for "Archives" widget (disabled by default)
 
     # Enable "Social" widget, if any of "social_*" set a value
+    social_widget_title = "About Me"
     social_facebook = "masa0.kato"
     social_twitter = "ponkore"
     # social_linkedin = "username"
     social_github = "ponkore"
     social_email = "ponkore@gmail.com"
-
+    social_rss = true
 # vim: ts=2 sw=2 et
