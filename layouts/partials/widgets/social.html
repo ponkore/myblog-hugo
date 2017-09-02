@@ -4,21 +4,17 @@
 	<div class="widget-social__content widget__content">
 		{{- with .Site.Params.widgets.social_facebook }}
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Facebook" rel="noopener noreferrer" href="https://facebook.com/{{ . }}" target="_blank">
-				<i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
-			</a>
+			<a class="smGlobalBtn facebookBtn" title="Facebook" rel="noopener noreferrer" href="https://facebook.com/{{ . }}" target="_blank"></a>
 		</div>
 		{{ end -}}
 		{{- with .Site.Params.widgets.social_twitter }}
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/{{ . }}" target="_blank">
-				<i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
-			</a>
+			<a class="smGlobalBtn twitterBtn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/{{ . }}" target="_blank"></a>
 		</div>
 		{{- end }}
 		{{- with .Site.Params.widgets.social_linkedin }}
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="" rel="noopener noreferrer" href="https://linkedin.com/in/{{ . }}" target="_blank">
+			<a class="smGlobalBtn linkedinBtn" title="" rel="noopener noreferrer" href="https://linkedin.com/in/{{ . }}" target="_blank">
 				<i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
 			</a>
 		</div>
