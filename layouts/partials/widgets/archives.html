@@ -3,11 +3,11 @@
 {{- if not (eq (len .Site.Taxonomies.archives) 0) }}
 <div class="widget-taglist widget">
 	<h4 class="widget__title">Archives</h4>
-	<div class="widget__content">
+	<ul class="widget__content">
 		{{- range $name, $items := .Site.Taxonomies.archives }}
-		<a class="widget__link widget__link--taglist" href="{{ "archives/" | relLangURL }}{{ $name | urlize | lower }}" title="{{ $name }}">{{ $name }}{{ if $.Site.Params.widgets.archives_counter }} ({{ $items.Count }}){{ end }}</a>
+		<li><a class="widget__link widget__link--taglist" href="{{ "archives/" | relLangURL }}{{ $name | urlize | lower }}" title="{{ $name }}">{{ $name }}{{ if $.Site.Params.widgets.archives_counter }} ({{ $items.Count }}){{ end }}</a></li>
 		{{- end }}
-	</div>
+	</ul>
 </div>
 {{- end }}
 {{- end }}

@@ -2,7 +2,7 @@
 title = "テストポスト"
 date = 2017-07-14
 url = "2017-07/14/my-first-post"
-archives = ["2017", "2017-07"]
+archives = ["2017-07"]
 tags = ["tag1", "tag2"]
 draft = false
 +++
