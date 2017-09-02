@@ -6,6 +6,10 @@ theme = "mainroad"
 disqusshortname = "ponkore" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
 
 [Author]
   name = "ponkore"
@@ -34,12 +38,13 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
     categories = true # Enable "Categories" widget
     tags = true # Enable "Tags" widget
     tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
+    archives_counter = true # Enable counter for "Archives" widget (disabled by default)
 
     # Enable "Social" widget, if any of "social_*" set a value
     social_facebook = "masa0.kato"
     social_twitter = "ponkore"
     # social_linkedin = "username"
     social_github = "ponkore"
-    # social_email = "example@example.com"
+    social_email = "ponkore@gmail.com"
 
 # vim: ts=2 sw=2 et

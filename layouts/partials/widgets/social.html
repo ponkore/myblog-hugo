@@ -1,0 +1,42 @@
+{{- if or .Site.Params.widgets.social_facebook .Site.Params.widgets.social_twitter .Site.Params.widgets.social_linkedin .Site.Params.widgets.social_github .Site.Params.widgets.social_email }}
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+		{{- with .Site.Params.widgets.social_facebook }}
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Facebook" rel="noopener noreferrer" href="https://facebook.com/{{ . }}" target="_blank">
+				<i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
+			</a>
+		</div>
+		{{ end -}}
+		{{- with .Site.Params.widgets.social_twitter }}
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/{{ . }}" target="_blank">
+				<i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+			</a>
+		</div>
+		{{- end }}
+		{{- with .Site.Params.widgets.social_linkedin }}
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="" rel="noopener noreferrer" href="https://linkedin.com/in/{{ . }}" target="_blank">
+				<i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+			</a>
+		</div>
+		{{- end }}
+		{{- with .Site.Params.widgets.social_github }}
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/{{ . }}" target="_blank">
+				<i class="fa fa-2x fa-github" aria-hidden="true"></i>
+			</a>
+		</div>
+		{{- end }}
+		{{- with .Site.Params.widgets.social_email }}
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Email" href="mailto:{{ . }}">
+				<i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i>
+			</a>
+		</div>
+		{{- end }}
+	</div>
+</div>
+{{- end }}
