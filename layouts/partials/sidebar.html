@@ -5,7 +5,14 @@
 	{{ partial "widgets/categories.html" . }}
 	{{ partial "widgets/taglist.html" . }}
 	{{ partial "widgets/archives.html" . }}
-
+<!-- older contents -->
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Older Contents</h4>
+	<ul class="widget__content">
+		<li><a class="widget__link widget__link--taglist" href="/misaki" title="Older Contents">Older Contents</a></li>
+	</ul>
+</div>
+<!-- -->
 	{{- if and (not .Site.Params.widgets.search) (not .Site.Params.widgets.recent_articles) (not .Site.Params.widgets.categories) (not .Site.Params.widgets.social) (not .Site.Params.widgets.taglist) (not .Site.Params.widgets.archives) }}
 	<p class="sidebar__warning"><strong>WARNING:</strong><br>Please activate at least one sidebar widget.</p>
 	{{- end }}
