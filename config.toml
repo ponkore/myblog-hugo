@@ -1,7 +1,7 @@
 baseURL = "http://ponkore.github.io/"
 languageCode = "ja-jp"
 title = "(scratchpad memories)"
-paginate = 5
+paginate = 10
 theme = "mainroad"
 disqusshortname = "ponkore" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
