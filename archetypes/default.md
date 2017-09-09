@@ -1,7 +1,7 @@
 +++
 title = ""
 description = ""
-date = "2017-09-09T18:02:36+09:00"
+date = "now()"
 categories = ["Programming"]
 tags = [""]
 archives = ["2017-09"]
