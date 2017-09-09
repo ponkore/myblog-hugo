@@ -278,6 +278,19 @@ pre {
     white-space: -webkit-pre-wrap;
 }
 
+code {
+    font-family: "Consolas", Courier New, Courier, monospace;
+    color: $foreground-color;
+    background: $other-background-color;
+    border: 1px solid $border-main-color;
+    padding: 4px;
+    padding: 0.25rem;
+    white-space: pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -webkit-pre-wrap;
+}
+
 kbd {
     padding: 0 6px;
     padding: 0 0.375rem;
