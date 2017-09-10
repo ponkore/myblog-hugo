@@ -3,7 +3,7 @@ languageCode = "ja-jp"
 title = "(scratchpad memories)"
 paginate = 10
 theme = "mainroad"
-disqusshortname = "ponkore" # Enable comments by entering your Disqus shortname
+disqusshortname = "ponkoresblog" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [taxonomies]
