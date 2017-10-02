@@ -5,7 +5,7 @@ date = "2017-09-09T18:02:36+09:00"
 categories = ["Programming"]
 tags = ["hugo", "雑記"]
 archives = ["2017-09"]
-url = "2017-09/02/hugo-first-post"
+url = "post/2017-09/02/hugo-first-post"
 thumbnail = "https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png"
 +++
 

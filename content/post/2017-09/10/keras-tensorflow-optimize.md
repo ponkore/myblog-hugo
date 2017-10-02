@@ -5,7 +5,7 @@ date = "2017-09-10T20:21:19+09:00"
 categories = ["Programming"]
 tags = ["Python", "TensorFlow", "Machine Learning"]
 archives = ["2017-09"]
-url = "2017-09/10/2017-09-10-keras-tensorflow-optimize"
+url = "post/2017-09/10/keras-tensorflow-optimize"
 thumbnail = "/img/2017-09/10/mnist.png"
 +++
 

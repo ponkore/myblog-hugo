@@ -21,7 +21,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 #
 [Params]
   subtitle = "主に自分用メモの小ネタを書いていきます。"
-  description = ""
+  description = "主に自分用メモの小ネタを書いていきます。"
   opengraph = true
   readmore = false
   leftsidebar = false
