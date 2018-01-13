@@ -6,7 +6,7 @@ categories = ["Programming"]
 tags = ["Emacs", "lisp", "hugo"]
 archives = ["2017-10"]
 url = "post/2017-10/02/add-emacs-function-for-hugo-post"
-thumbnail = "/img/2017-10/02/add-emacs-function-for-hugo-post.png"
+thumbnail = "/img/2017-10/02/Emacs.png"
 +++
 
 Hugoで記事を書き始めるための emacs lisp を書いてみました。
