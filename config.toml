@@ -1,4 +1,4 @@
-baseURL = "http://ponkore.github.io/"
+baseURL = "https://ponkore.org/"
 languageCode = "ja-jp"
 title = "(scratchpad memories)"
 paginate = 10
