@@ -29,6 +29,7 @@ jobs:
       - run:
           name: push to master
           command: |
+              git submodule update -i
               hugo
               git clone https://github.com/ponkore/ponkore.github.io.git
               ls
